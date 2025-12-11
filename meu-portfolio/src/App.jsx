@@ -1,10 +1,13 @@
 import './App.css'
+import NavBar from './Components/NavBar/NavBar'
 
 function App() {
 
   return (
     <>      
-    <div></div> 
+    <div className="div-pai-de-todos">
+        <NavBar/>
+      </div> 
     </>
   )
 }

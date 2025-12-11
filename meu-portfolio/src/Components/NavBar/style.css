@@ -1,0 +1,17 @@
+.nav-bar-pai {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.div-invisivel {
+    width: 50%;
+}
+
+.Contato, .Skills, .Projeto, .Sobre {
+    text-decoration: none; 
+    color: #dbdbdb;
+}
