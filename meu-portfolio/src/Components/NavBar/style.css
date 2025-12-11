@@ -10,7 +10,26 @@
     width: 50%;
 }
 
-.Contato, .Skills, .Projeto, .Sobre {
-    text-decoration: none; 
+.Contato,
+.Skills,
+.Projeto,
+.Sobre {
+    text-decoration: none;
     color: #dbdbdb;
+}
+
+.Contato:hover {
+    color: white;
+}
+
+.Skills:hover {
+    color: white;
+}
+
+.Projeto:hover {
+    color: white;
+}
+
+.Sobre:hover {
+    color: white;
 }

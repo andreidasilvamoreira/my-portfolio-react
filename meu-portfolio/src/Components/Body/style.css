@@ -39,7 +39,7 @@
     margin-top: 5vh;
     height: 7.5vh;
     width: 14vw;
-    border-radius:1.5vh;
+    border-radius: 1.5vh;
     font-size: 1.6rem;
     border: none;
 }
@@ -47,14 +47,22 @@
 .projetos {
     background-color: #4074c8;
     color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contato {
     background-color: white;
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .botao-pai {
     display: flex;
     gap: 3vh;
+    text-decoration: none;
 }
