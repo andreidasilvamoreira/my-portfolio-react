@@ -1,4 +1,5 @@
 import './App.css'
+import Body from './Components/Body/Body'
 import NavBar from './Components/NavBar/NavBar'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>      
     <div className="div-pai-de-todos">
         <NavBar/>
+        <Body/>
       </div> 
     </>
   )

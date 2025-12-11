@@ -1,0 +1,60 @@
+.div-body-pai {
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.minha-foto {
+    width: 25vw;
+    height: 65vh;
+    border-radius: 5%;
+    flex-shrink: 0;
+}
+
+.h1-nome {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.div-descricao {
+    margin-top: 5vh;
+    margin-right: 8vh;
+}
+
+.p {
+    color: rgb(207, 207, 207);
+    flex: 1;
+    font-size: 2.5rem;
+    max-width: 32vw;
+    font-weight: 300;
+}
+
+.descricao {
+    margin-top: 4vh;
+    font-size: 2.2rem;
+}
+
+.btn {
+    margin-top: 5vh;
+    height: 7.5vh;
+    width: 14vw;
+    border-radius:1.5vh;
+    font-size: 1.6rem;
+    border: none;
+}
+
+.projetos {
+    background-color: #4074c8;
+    color: white;
+}
+
+.contato {
+    background-color: white;
+    color: black;
+}
+
+.botao-pai {
+    display: flex;
+    gap: 3vh;
+}
