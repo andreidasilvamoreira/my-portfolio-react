@@ -5,6 +5,9 @@ export default function NavBar() {
     return (
         <>
             <div className="nav-bar-pai">
+                <a href="#home">
+                    <i className="fa-solid fa-house"></i>
+                </a>
                 <div className="navContent">
                     <A href="#projetos" className="Projetos">Projects</A>
                     <A href="#skills" className="Skills">Skills</A>

@@ -75,3 +75,7 @@
     display: flex;
     gap: 3vh;
 }
+
+#home {
+    scroll-margin-top: 13vh;
+}

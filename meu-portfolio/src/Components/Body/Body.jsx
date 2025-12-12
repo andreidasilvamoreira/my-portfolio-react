@@ -5,7 +5,7 @@ import "../Body/style.css"
 export default function Body() {
     return (
         <>
-            <div className="div-body-pai">
+            <div id="home" className="div-body-pai">
                 <div className="div-descricao"><h1 className="h1-nome">Andrei Moreira</h1>
                     <P className="p">Backend-Focused Full Stack Developer</P>
                     <P className="p descricao">I build fast, secure, and scalable APIs using PHP, Laravel, MySQL, and React.</P>

@@ -1,15 +1,12 @@
-import "./style.css";
+import "../SectionSkills/style.css";
 
-export default function CardSkill({ titulo, skills }) {
+export default function SkillCategory({ title, skills, containerClass, titleClass }) {
     return (
-        <div className="skill-category">
-            <h1 className="skill-title">{titulo}</h1>
-
+        <div className={containerClass}>
+            <h1 className={titleClass}>{title}</h1>
             <div className="container-skill">
-                {skills.map((item) => (
-                    <p key={item} className="card-skill-skill">
-                        {item}
-                    </p>
+                {skills.map((skill, index) => (
+                    <p key={index} className="card-skill-skill">{skill}</p>
                 ))}
             </div>
         </div>

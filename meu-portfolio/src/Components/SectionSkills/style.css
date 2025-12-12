@@ -6,6 +6,7 @@
     padding: 6vh;
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
     margin-left: 5vw;
 }
 
