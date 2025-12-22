@@ -13,9 +13,9 @@ export default function Card({ title, descricao, skills = [], buttonText, classN
                 )
                 )}
             </div>
-            <button className="btn-projeto">
+            <a className="btn-projeto">
                 {buttonText}
-            </button>
+            </a>
         </div>
     );
 }

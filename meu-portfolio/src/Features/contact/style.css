@@ -1,5 +1,5 @@
 .div-contato-pai-de-todos {
-    margin-bottom: 20vh;
+    margin-bottom: 15vh;
 }
 
 .contato-pai {
@@ -115,6 +115,7 @@ h4 {
 }
 
 .btn-enviar {
+    text-decoration: none;
     background-color: #323246;
     border-radius: 1vh;
     border: none;
@@ -131,4 +132,17 @@ h4 {
     transform: scale(1.03);
     border-color: #2f3342;
     box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15);
+}
+
+.telefone {
+    margin-bottom: 0;
+}
+
+.telefone-link {
+    text-decoration: none;
+}
+
+.telefone-link:hover {
+    text-decoration: none;
+    color: #cacaca;
 }

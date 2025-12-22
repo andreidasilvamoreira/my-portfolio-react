@@ -78,6 +78,9 @@
 }
 
 .btn-projeto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 10vw;
     height: 6vh;
     border: none;
@@ -85,4 +88,5 @@
     border-radius: 1vh;
     background-color: #2765ca;
     font-size: 1.5rem;
+    cursor: pointer;
 }
