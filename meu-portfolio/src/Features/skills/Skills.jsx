@@ -12,7 +12,7 @@ export default function Skills() {
             </div>
 
             <div className="div-centralizar">
-                <div className="div-pai-Skills">
+                <div className="glass-card div-pai-Skills">
                     <SkillCategory
                         title="Back-end"
                         skills={["PHP", "Laravel", "Axios"]}
@@ -35,7 +35,7 @@ export default function Skills() {
                     />
                 </div>
 
-                <div className="softSkills">
+                <div className="glass-card softSkills">
                     <SkillCategory
                         title={t.skills.sections.practices}
                         skills={["Scrum", "Kanban", "Padrão REST", "Clean Code"]}

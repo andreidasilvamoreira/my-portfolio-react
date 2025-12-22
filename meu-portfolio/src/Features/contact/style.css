@@ -18,7 +18,6 @@
 }
 
 .contato {
-    background-color: #0A0A1A;
     font-size: 2rem;
     margin-bottom: 2vh;
 }
@@ -40,7 +39,6 @@
 .formulario-contato {
     display: flex;
     flex-direction: column;
-    background-color: #0A0A1A;
     width: 100%;
     gap: 1.5vh;
 }
@@ -80,7 +78,7 @@ h4 {
 }
 
 .input {
-    background-color: #0F1320;
+    background-color: #111627;
     border: 1px solid rgba(207, 207, 207, 0.15);
     padding: 1.4vh;
     font-size: 1rem;

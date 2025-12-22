@@ -8,7 +8,7 @@ export default function Body() {
 
     return (
         <>
-            <div id="home" className="div-body-pai">
+            <div id="home" className="hero">
                 <div className="div-descricao"><h1 className="h1-nome">Andrei Moreira</h1>
                     <P className="p">{t.home.description[0]}</P>
                     <P className="p descricao">{t.home.description[1]}</P>

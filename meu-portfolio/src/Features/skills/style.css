@@ -2,7 +2,6 @@
     width: 20%;
     height: 45vh;
     border-radius: 2vh;
-    background-color: #12151f;
     padding: 6vh;
     display: flex;
     justify-content: flex-start;
@@ -15,14 +14,12 @@
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    background-color: #0A0A1A;
     margin-bottom: 7vh;
 }
 
 .softSkills {
     display: flex;
     flex-direction: column;
-    background-color: #12151f;
     width: 25%;
     height: 45vh;
     padding: 6vh;
@@ -70,4 +67,19 @@
 
 #skills {
     scroll-margin-top: 13vh;
+}
+
+.glass-card {
+    background: rgba(15, 19, 32, 0.65);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    border: 1px solid rgba(32, 29, 29, 0.08);
+    border-radius: 20px;
+
+    box-shadow:
+        0 20px 40px rgba(0, 0, 0, 0.45),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+
+    padding: 2.5rem;
 }
