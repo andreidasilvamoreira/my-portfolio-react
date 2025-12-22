@@ -9,7 +9,8 @@ export const translations = {
 
         home: {
             description: [
-                "Desenvolvedor Full Stack com foco em Backend", "Construo APIs rápidas, seguras e escaláveis ​​usando PHP, Laravel, MySQL e React."
+                "Desenvolvedor Full Stack focado em Back-end",
+                "Construo APIs rápidas, seguras e escaláveis utilizando PHP, Laravel, MySQL e React."
             ],
             actions: {
                 projects: "Ver Projetos",
