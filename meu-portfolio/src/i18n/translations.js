@@ -51,12 +51,20 @@ export const translations = {
 
         about: {
             title: "Sobre mim",
-            description: ["Encaro o desenvolvimento de software como um processo de construção consciente, onde organização, clareza e responsabilidade são essenciais.",
-                "Procuro entender o problema antes de escrever código, estruturar bem as soluções e pensar sempre na manutenção e evolução do sistema.",
-                "Valorizo código limpo, separação de responsabilidades e decisões técnicas que façam sentido no longo prazo.",
-                "Mais do que apenas fazer funcionar, busco entregar soluções consistentes, que sejam fáceis de entender, manter e evoluir."
-            ]
+            subtitle: "Desenvolvimento para mim é construção consciente, não apenas código funcionando.",
+            description: [
+                "Encaro o desenvolvimento de software como um processo onde organização, clareza e responsabilidade técnica são essenciais.",
+                "Antes de escrever código, busco entender o problema, estruturar bem a solução e pensar na manutenção e evolução do sistema ao longo do tempo."
+            ],
+
+            highlights: [
+                "Código limpo e organizado",
+                "Separação clara de responsabillidades",
+                "Decisões técnicas pensando no longo prazo",
+            ],
+            closing: "Mais do que apenas fazer funcionar, busco entregar soluções consistentes, fáceis de entender, manter e evoluir."
         },
+
 
         contact: {
             title: "Contato",
@@ -125,12 +133,21 @@ export const translations = {
 
         about: {
             title: "About Me",
+            subtitle: "For me, development is a conscious construction process, not just code that works.",
             description: [
-                "I see software development as a conscious construction process, where organization, clarity and responsibility are essential.",
-                "I aim to understand the problem before writing code, structuring solutions properly and always considering system maintenance and evolution.",
-                "I value clean code, separation of concerns and technical decisions that make sense in the long term.",
-                "More than just making things work, I strive to deliver solid solutions that are easy to understand, maintain and evolve."
-            ]
+                "I approach software development as a process where organization, clarity, and technical responsibility are essential.",
+                "Before writing code, I seek to understand the problem, structure the solution properly, and think about the system’s maintenance and evolution over time."
+            ],
+
+            highlights: [
+                "Clean and well-organized code",
+                "Clear separation of responsibilities",
+                "Technical decisions made with long-term impact in mind"
+            ],
+
+            closing:
+                "More than just making things work, I aim to deliver solid solutions that are easy to understand, maintain, and evolve."
+
         },
 
         contact: {
@@ -145,5 +162,5 @@ export const translations = {
             }
         }
     }
-
 }
+
