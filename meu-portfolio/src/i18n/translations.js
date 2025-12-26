@@ -68,7 +68,8 @@ export const translations = {
 
         contact: {
             title: "Contato",
-            titleDescription: "Se quiser conversar sobre projetos, ideias ou oportunidades, fique à vontade para entrar em contato.",
+            titleDescription: "Vamos conversar",
+            contactDescription: ["Estou aberto a oportunidades como desenvolvedor júnior ou estágio", "Se quiser conversar, me chama em qualquer um dos canais abaixo."],
             telephone: "Telefone",
             form: {
                 name: "Seu Nome",
@@ -152,7 +153,8 @@ export const translations = {
 
         contact: {
             title: "Contact",
-            titleDescription: "If you'd like to talk about projects, ideas or opportunities, feel free to get in touch.",
+            titleDescription: "Let’s talk",
+            contactDescription: ["I’m open to junior developer or internship opportunities.", "If you’d like to talk, feel free to reach out through any of the channels below."],
             telephone: "Phone",
             form: {
                 name: "Your Name",

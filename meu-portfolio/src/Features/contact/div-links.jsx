@@ -1,13 +1,10 @@
 import "./style.css"
 
-export default function Div({ className, url, title, value }) {
+export default function Div({ classLink, className, link, url, nome}) {
     return (
-            <div className={`link ${className}`}>
-                <h4>{title}</h4>
-                {url ? (<a className={`link-${className}`} href={url}>{value}</a>) : (
-                    <p>{value}</p>
-                )}
-            </div>
+        <div className={classLink}>
+            <a className={link} href={url}><i className={className}></i>{nome}</a>
+        </div> 
     )
 }
 

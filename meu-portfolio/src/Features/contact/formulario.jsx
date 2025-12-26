@@ -38,7 +38,6 @@ export default function Form() {
     return (
         <>
             <div className="div-formulario">
-                <Div title="Email:" className="email" value="andreidasilvamoreira14@gmail.com" />
                 <form
                     ref={form}
                     className="formulario-contato"
