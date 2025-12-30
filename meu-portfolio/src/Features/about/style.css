@@ -1,4 +1,3 @@
-/* ===== Layout geral ===== */
 
 .div-pai-de-todos-sobre-mim {
     display: flex;
@@ -15,8 +14,6 @@
     align-items: center;
     gap: 5vh;
 }
-
-/* ===== Texto ===== */
 
 .h1-sobre {
     font-size: 3rem;
@@ -81,8 +78,6 @@
     height: 100%;
 }
 
-/* Glow */
-
 .code-glow-top {
     position: absolute;
     inset: -30px;
@@ -104,7 +99,6 @@
     filter: blur(50px);
     z-index: 0;
 }
-/* Card visual */
 
 .about-visual {
     position: relative;
