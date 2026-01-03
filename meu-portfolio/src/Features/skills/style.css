@@ -26,6 +26,14 @@
     border-radius: 2vh;
 }
 
+.div-pai-Skills,
+.softSkills {
+    height: auto;
+    min-height: 45vh;
+    padding: 2.5rem;
+    box-sizing: border-box;
+}
+
 .h1-skills {
     font-weight: 400;
 }
@@ -49,6 +57,7 @@
     align-items: center;
     margin-bottom: 10vh;
     gap: 10vh;
+    align-items: stretch;
 }
 
 .container-skill {
@@ -57,12 +66,15 @@
     margin-top: 2vh;
     margin-bottom: 4vh;
     flex-wrap: wrap;
+        max-width: 100%;
+
 }
 
 .card-skill-skill {
     background-color: #202431;
     padding: 1.5vh;
     border-radius: 12%;
+    white-space: nowrap;
 }
 
 #skills {
@@ -70,6 +82,7 @@
 }
 
 .glass-card {
+    width: 25vw;
     background: rgba(15, 19, 32, 0.65);
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
