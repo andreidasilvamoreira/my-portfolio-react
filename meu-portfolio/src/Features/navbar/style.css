@@ -53,7 +53,8 @@
 .Contato,
 .Skills,
 .Projetos,
-.Sobre {
+.Sobre,
+.home {
     position: relative;
     color: #d1d7ee;
     font-weight: 500;
@@ -134,4 +135,99 @@ nav-bar-pai::after {
 
 .selectLanguage:focus {
     box-shadow: 0 0 0 1.5px rgba(116, 114, 114, 0.548);
+}
+
+.hamburger,
+.mobile-menu {
+    display: none;
+}
+
+.h1-name {
+    display: none;
+}
+
+@media (max-height: 1024px) and (max-width: 768px) {
+    .navContent {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: row;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        color: white;
+        width: 60%;
+        justify-content: flex-end;
+        margin-right: 10vw;
+    }
+
+    .fa-house {
+        display: none;
+    }
+
+    .mobile-menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 50vh;
+        width: 40vw;
+        max-width: 60vw;
+        background: rgba(15, 19, 32, 0.85);
+        backdrop-filter: blur(14px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3vh;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        z-index: 999;
+        border-radius: 1vh;
+    }
+
+    .div-links-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4vh;
+    }
+
+    .div-button-menu {
+        background-color: rgba(9, 11, 19, 0.85);
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+        justify-content: space-around
+    }
+
+    .h1-name {
+        display: block;
+        width: 40%;
+    }
+
+    .close {
+        font-size: 2em;
+        background-color: rgba(9, 11, 19, 0.85);
+        border: none;
+        margin-right: 3vh;
+    }
+
+    .mobile-menu.open {
+        transform: translateX(0);
+    }
+
+    .Contato,
+    .Skills,
+    .Projetos,
+    .Sobre,
+    .home {
+        font-size: 1.8em;
+    }
+
+    .Contato {
+        margin-bottom: 5vh;
+    }
 }
