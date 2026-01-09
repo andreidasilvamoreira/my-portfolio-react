@@ -1,25 +1,25 @@
-# MyPortfolio
+# 🌐 My Portfolio
 
-Portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e informações profissionais como desenvolvedor de software.
+Personal portfolio developed to showcase my projects, skills, and professional information as a software developer.
 
-## 🚀 Tecnologias utilizadas
+## 🚀 Technologies
 - JavaScript
 - HTML5
 - CSS3
 - React
 
-## 📂 Funcionalidades
-- Apresentação pessoal
-- Listagem de projetos
-- Links para GitHub e LinkedIn
-- Design responsivo
+## 📂 Features
+- Personal presentation
+- Project listing
+- GitHub and LinkedIn links
+- Responsive design
 
-## 🧠 Objetivo do projeto
-Este projeto foi criado para servir como portfólio profissional, facilitando a apresentação dos meus trabalhos e experiências técnicas.
+## 🧠 Project goal
+This project was created to serve as a professional portfolio, making it easier to present my work, skills, and technical experience.
 
-## ▶️ Como executar o projeto
+## ▶️ How to run the project
+
 ```bash
-git clone https://github.com/seu-usuario/MyPortfolio.git
-cd MyPortfolio
+git clone https://github.com/andreidasilvamoreira/my-portfolio-react
 npm install
 npm run dev
